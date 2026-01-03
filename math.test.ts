@@ -14,6 +14,8 @@ describe('Math function', () => {
         expect(multiply(2, 3)).toBe(6);
         expect(multiply(-1, 5)).toBe(-5);
     })
-
-
+    test('掛け算のテスト', () => {
+        expect(multiply(2, 3)).toBe(6);
+        expect(multiply(2, 3)).toBe(6);
+    })
 })
